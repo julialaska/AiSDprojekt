@@ -21,10 +21,6 @@ class Queue:
         return len(self._storage)
 
     def print(self):
-        # node = self._storage.head
-        # while node != None:
-        #     print(str(node.value))
-        #     node = node.next
         print(self._storage)
 
     def __str__(self):
